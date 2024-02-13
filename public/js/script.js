@@ -53,7 +53,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "images/yes.gif";
+    banner.src = "https://giphy.com/gifs/cat-hug-phone-0OgdJVNjbcIifqSb7U";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
